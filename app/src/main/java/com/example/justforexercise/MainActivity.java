@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(hashMap);
 
         hashMap = new HashMap<>();
-        hashMap.put("name","Bil Gates");
+        hashMap.put("name","Bil joy ");
         hashMap.put("Mobile","111");
         arrayList.add(hashMap);
 
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             TextView tvMobile = myView.findViewById(R.id.tvMobile);
 
             HashMap<String, String> hashMap = arrayList.get(position);
-
+// she dost n't want this world to me
             tvName.setText(hashMap.get("name"));
             tvMobile.setText(hashMap.get("mobile"));
 
